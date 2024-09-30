@@ -1,0 +1,34 @@
+.galery {}
+
+.galery img {
+  height: auto;
+  width: 100%;
+}
+
+.galery .item-galery {
+  width: 318px;
+  padding-top: 77px;
+  background-color: #A8CC38;
+  overflow: hidden;
+  height: 471px;
+  /* border-radius: 20px; */
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 90px;
+}
+
+#c_quem_somos_text {
+  color: #073C5C;
+}
+
+#c_quem_somos_text h2 {
+  font-size: 5rem;
+  max-width: 331px;
+  font-weight: 400;
+}
+
+#c_quem_somos_text h3 {
+  margin-top: 40px;
+  font-size: 20px;
+  line-height: 1.5;
+  font-weight: 400;
+}

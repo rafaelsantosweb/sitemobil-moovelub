@@ -1,0 +1,19 @@
+name: moovelub
+recipe: lamp
+config:
+  webroot: .
+
+services:
+  appserver:
+    type: php:7.2
+
+  myservice:
+    type: mysql:8.0
+
+  phpmyadmin:
+    type: phpmyadmin
+    hosts:
+      - database
+proxy:
+  phpmyadmin:
+    - phpmyadmin.moovelub.lndo.site

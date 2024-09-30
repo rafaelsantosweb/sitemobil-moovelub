@@ -1,0 +1,130 @@
+{
+	"mapwidth":"1200",
+	"mapheight":"590",
+	"styles": [
+		{
+			"class": "red",
+			"base": { "fill": "rgba(242, 53, 67, 0.6)" },
+			"hover": { "fill": "rgba(242, 53, 67, 0.8)" },
+			"active": { "fill": "rgba(242, 53, 67, 1.0)" }
+		},
+		{
+			"class": "purple",
+			"base": { "fill": "rgba(121, 94, 205, 0.6)" },
+			"hover": { "fill": "rgba(121, 94, 205, 0.8)" },
+			"active": { "fill": "rgba(121, 94, 205, 1.0)" }
+		},
+		{
+			"class": "green",
+			"base": { "fill": "rgba(130, 192, 62, 0.6)" },
+			"hover": { "fill": "rgba(130, 192, 62, 0.8)" },
+			"active": { "fill": "rgba(130, 192, 62, 1.0)" }
+		},
+		{
+			"class": "teal",
+			"base": { "fill": "rgba(41, 175, 161, 0.6)" },
+			"hover": { "fill": "rgba(41, 175, 161, 0.8)" },
+			"active": { "fill": "rgba(41, 175, 161, 1.0)" }
+		},
+		{
+			"class": "yellow",
+			"base": { "fill": "rgba(253, 202, 42, 0.6)" },
+			"hover": { "fill": "rgba(253, 202, 42, 0.8)" },
+			"active": { "fill": "rgba(253, 202, 42, 1.0)" }
+		},
+		{
+			"class": "orange",
+			"base": { "fill": "rgba(241, 152, 25, 0.6)" },
+			"hover": { "fill": "rgba(241, 152, 25, 0.8)" },
+			"active": { "fill": "rgba(241, 152, 25, 1.0)" }
+		}
+	],
+	"levels":[
+		{
+			"id":"world",
+			"title":"World",
+			"map":"./plugin/main/maps/world-new-2.svg",
+			"locations":[
+				{
+					"id": "us",
+					"title": "United States",
+					"description": "PETROCHOICE <br> 933 First Avenue <br>King of Prussia, PA 19406 <br> +1 888 575 1226 <br> <a href='mailto:marketing@petrochoice.com'>marketing@petrochoice.com</a>",
+					"link": "https://www.petrochoice.com/",
+					"x": "0.3005",
+					"y": "0.3744",
+					"pin" : "pin-image",
+					"label" : "./plugin/main/images/gota.png"
+				},
+				{
+					"id": "pt",
+					"title": "Portugal",
+					"description": "LEIRIA <br> Estrada Nacional 1 (IC2) <br> Barracão 2420-195 <br> +351 253 331 590 <br> <a href='mailto:geral@pt.moovelub.com'>geral@pt.moovelub.com</a>",
+					"link": "https://moovelub.pt/",
+					"x": "0.4770",
+					"y": "0.3786",
+					"pin" : "pin-image",
+					"label" : "./plugin/main/images/gota.png"
+				},
+				{
+					"id": "fr",
+					"title": "France",
+					"description": "ZI de Lonrai <br> BP 153 <br> 61005 Alençon Cedex <br> +33 02 33 82 38 00 <br> <a href='mailto:info@tta-lubrifiants.com'>info@tta-lubrifiants.com</a>",
+					"link": "http://www.tta-lubrifiants.com/",
+					"x": "0.5018",
+					"y": "0.3200",
+					"pin" : "pin-image",
+					"label" : "./plugin/main/images/gota.png"
+				},
+				{
+					"id": "es",
+					"title": "Spain",
+					"description": "MADRID <br> Parque Empresarial La Finca Paseo Club Deportivo, 1, Edificio 15-A, planta Baja 28223 <br> +34 911 11 48 50 <br> Pozuelo de Alarcón <br> <a href='mailto:at.cliente@es.moovelub.com'>at.cliente@es.moovelub.com</a>",
+					"link": "https://mobil.moovelub.es/",
+					"x": "0.4935",
+					"y": "0.3799",
+					"pin" : "pin-image",
+					"label" : "./plugin/main/images/gota.png"
+				},
+				{
+					"id": "gb",
+					"title": "United Kingdom",
+					"description": "Dering Way <br> Gravesend <br> Kent <br> DA12 2QX <br>United Kingdom <br> <a href='mailto:enquiries@uk.moovelub.com'>enquiries@uk.moovelub.com</a> <br> Tel: +44 (0)1474 564311",
+					"link" : "https://www.moovelub.co.uk/",
+					"x": "0.5016",
+					"y": "0.2850",
+					"pin" : "pin-image",
+					"label" : "./plugin/main/images/gota.png"
+				},
+				{
+					"id": "br",
+					"title": "Brazil",
+					"description": "SÃO PAULO <br> Avenida Brigadeiro Faria Lima, 4100 <br> Itaim Bibi CEP 04538-132 <br>+55 11 4517-1700 <br> <a href='mailto:falecomamoove@moovelub.com'>falecomamoove@moovelub.com</a>",
+					"link": "http://moovelub.com/mobil",
+					"x": "0.3700",
+					"y": "0.7362",
+					"pin" : "pin-image",
+					"label" : "./plugin/main/images/gota.png"
+				},
+				{					
+					"title": "Brazil",
+					"description": "RIO DE JANEIRO <br> Rua Campo da Ribeira, 51 <br>Ribeira CEP 21930-080 <br>+55 21 3386-2218 <br> <a href='mailto:falecomamoove@moovelub.com'>falecomamoove@moovelub.com</a>",
+					"link": "http://moovelub.com/mobil",
+					"x": "0.3900",
+					"y": "0.7343",
+					"pin" : "pin-image",
+					"label" : "./plugin/main/images/gota.png"
+				},
+				{
+					"id": "ar",
+					"title": "Argentina",
+					"description": "BUENOS AIRES <br> Av. del Libertador 6343 Piso 8° oficina B <br> soporte.tecnico@ar.moovelub.com",
+					"x": "0.3417",
+					"y": "0.8116",
+					"link" : "https://moovelub.com.ar/",
+					"pin" : "pin-image",
+					"label" : "./plugin/main/images/gota.png"
+				}
+			]
+		}
+	]
+}

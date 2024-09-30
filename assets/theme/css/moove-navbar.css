@@ -1,0 +1,17 @@
+#c_menu_banner_1 {
+  border-bottom-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+}
+
+.navbar {
+  background-color: #F0F3EC;
+  align-items: center;
+  padding: 3px 17px;
+  border-radius: 40px;
+}
+
+.navbar .navbar-nav {
+  gap: 3%;
+  text-transform: uppercase;
+}
+
