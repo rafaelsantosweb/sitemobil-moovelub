@@ -54,6 +54,11 @@ b, strong {
 	font-weight: 1000;
 }
 
+.img-icon-gota{
+	width: 20px;
+	height: auto;
+}
+
 .c_subtitle_b {
 	color: blue;
 	font-size: 20px;
@@ -378,12 +383,21 @@ b, strong {
 }
 
 
+
+
 /*	====================
 	      DIFERENCIAL
 	==================== */
 
 /* Container / Card */
 
+#c_diferencial {
+	border-bottom-right-radius: 40px;
+	border-bottom-left-radius: 40px;
+	z-index: 2;
+	position: relative;
+	background: #F0F3EC;
+}
 
 .c_diferencial_container {
 	padding-top: 100px;
@@ -411,6 +425,18 @@ b, strong {
 	color: #073C5C;
 	font-size: 5rem;
 	font-weight: 300;
+	display: flex;
+	justify-content: space-between;
+}
+
+.c_diferencial_title h2::after {
+	content: '';
+	background-image: url(/assets/images/icon/gota-icon-verde.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 80px;
+	height: 80px;
+	rotate: 230deg;
 }
 
 .c_diferencial_card_text {
@@ -430,19 +456,19 @@ b, strong {
 }
 
 .c_diferencial_card_text.card-1 h2 {
-	width: 200px;
+	width: 50%;
 }
 
 .c_diferencial_card_text.card-2 h2 {
-	width: 184px;
+	width: 50%;
 }
 
 .c_diferencial_card_text.card-3 h2{
-	width: 240px;
+	width: 50%;
 }
 
 .c_diferencial_card_text.card-4 h2 {
-	width: 217px;
+	width: 60%;
 }
 
 .c_diferencial_card_text h2 {
@@ -453,7 +479,7 @@ b, strong {
 
 .c_diferencial_card_text h3 {
 	width: 228px;
-	font-size: .8vw;
+	font-size: .7vw;
 	-webkit-hyphens: auto;
   -ms-hyphens: auto;
 	hyphens: auto;	
@@ -466,7 +492,7 @@ b, strong {
 	background-repeat: no-repeat;
 	background-size: contain;
 	background-position: center;
-	height: 21px;
+	height: 15px;
 	width: 85px;
 	margin-right: 20px;
 }
@@ -476,11 +502,15 @@ b, strong {
 ==================== */	
 #c_mapa {
 	position: relative;
+	background-color: #093D5E;
+	top: -37px;
+	z-index: 1;
+	padding-top: 38px !important;
 }
 #c_mapa .container {
 	position: relative;	
 	position: absolute;
-	top: 50px;
+	top: 100px;
 	left: 50%;
 	-webkit-transform: translateX(-50%);
 	-moz-transform: translateX(-50%);
@@ -490,36 +520,15 @@ b, strong {
 	z-index: 3000;
 }
 #c_mapa h2 {
-	color: #006BA6;
-	font-size: 40px;
-	font-weight: 500;
+	color: #fff;
+	font-size: 4.5vw;
+	font-weight: 200;
 	padding: 0;
 	margin: 0;
 	display: inline-block;
 	width: auto;
 	position: relative;
 	
-}
-#c_mapa h2:before {
-	content: "";
-	display: block;
-	width: calc(100% - 7px);
-	height: 2px;
-	background-color: #85BD00;
-	position: absolute;
-	bottom: -18px;
-	left: 0;
-}
-#c_mapa h2:after {
-	content: "";
-	display: block;	
-	height: 10px;
-	width: 10px;
-	border: 2px solid #85BD00;
-	position: absolute;
-	bottom: -22px;
-	right: 0;
-	border-radius: 50%;
 }
 #c_mapa {
 	margin: 0px;
@@ -528,6 +537,12 @@ b, strong {
 #c_mapa image:hover {
     cursor: pointer;
 }
+
+#landmarks-countries path, #other path{
+	fill: #11293A !important;
+	stroke: #093D5E !important;
+}
+
 
 .popover-footer {
 	background-color: #EFEFEF;
@@ -609,32 +624,30 @@ b, strong {
 	==================== */
 
 #c_links_uteis {	
-	background-color: #323232;	
 	padding: 40px 0 60px;
 }
 
 #c_links_uteis h2 {
-	color: #85BD00;
-	font-size: 24px;
-	font-weight: bold;
+	color: #093D5E;
+	font-size: 29px;
+	font-weight: 400;
+	margin-bottom: 40px;
 }
 
 ul.ul-links {
-	color: #fff;
+	padding: 0;
 	font-size: 20px;
-}
-
-ul.ul-links {
-  list-style: none;
+	list-style: none;
 }
 
 ul.ul-links li {
 	line-height: 1;
+	margin-bottom: 10px;
 }
 
 ul.ul-links li a {
 	display: inline-block;
-	color: #fff !important;
+	color: #093D5E !important;
 }
 
 ul.ul-links li a:hover,
@@ -642,18 +655,6 @@ ul.ul-links li a:focus {
 	outline: none;
 	text-decoration: none;
 }
-
-ul.ul-links li::before {
-  content: "\203A";
-  color: #85BD00;
-  font-weight: 500;
-  display: inline-block;
-  width: 15px;
-  margin-left: -40px;
-	font-size: 40px;
-	transform: translateY(1px);
-}
-
 
 .c_links_uteis_pt1 {
 	padding-top: 80px;
@@ -668,8 +669,8 @@ ul.ul-links li::before {
 
 .c_links_uteis_pt2 a {
 	display: inline-block;
-	font-size: 20px;
-	color: #fff !important;
+	font-size: 30px;
+	color: #093D5E !important;
 }
 
 ul.ul-links li a:hover,
@@ -693,7 +694,8 @@ ul.ul-links li a:focus,
 }
 
 .social-media li img {
-	width: 35px;
+	height: 2.6vw;
+  width: 100%;
 }
 
 /*	====================
@@ -1065,10 +1067,10 @@ ul.ul-links li a:focus,
 }
 
 #mapplic {
-	background-color: #fff;
+	background-color: transparent;
 }
 .mapplic-map svg {
-	background-color: #fff;
+	background-color: transparent;
 }
 
 /* Responsivo */

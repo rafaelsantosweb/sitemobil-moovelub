@@ -123,6 +123,9 @@
 			<div class="container c_container_text">
 				<div id="c_menu_banner_1_text">
 					<h2>Referência global no mercado de lubrificantes</h2>
+					<span>
+						<img class="img-icon-gota" src="/assets/images/icon/gota-icon-verde.png" alt="">
+					</span>
 					<h3>Trabalhamos com foco em 3 prioridades: times de alta performance, expansão dos negócios e cultura de eficiência.</h3>
 				</div>
 			</div>
@@ -238,25 +241,32 @@
 
 		<!-- O QUE TE MOOVE -->
 		<section id="c_moove">
-			<div class="container-fluid">
-				<div class="row">
-
-					<div class="col-12 col-md-6 px-0">
-						<img class="c_img_responsive c_img_100" src="assets/images/home/o-que-te-moove.png">
+			<div class="container">
+				<div class="row box-content">
+					<div class="col-sm-8">
+						<h2>seja um <br> moover</h2>
 					</div>
-
-					<div class="col-12 col-md-6 c_moove_background px-0">
-						<div class="half-container">
-							<div id="c_moove_text">
-								<h2>O que te moove?</h2>
-								<h3>Procuramos um profissional que joga sempre em time e sabe que <b>TAMO JUNTO</b> em qualquer desafio, afinal, não se chega a lugar nenhum sozinho. Faz questão de ter a <b>MENTE ABERTA</b> para o novo e acredita que as melhores ideias são criadas em um ambiente com pluralidade, por isso, discute aquilo que é importante, relevante e não tem medo de <b>PAPO RETO</b>. Haja o que houver, está <b>SEGURO SEMPRE</b>, faz o certo da maneira certa em todas as situações, foca em resultados e busca sempre <b>PENSAR GRANDE</b> e <b>REALIZAR SIMPLES</b>.</h3>
-								
-								<a href="https://grupocosan.csod.com/ux/ats/careersite/4/home?c=grupocosan" target="_blank" class="btn btn-success">SEJA UM MOOVER</a>
-								<h3 class="c_moove_vagas">Confira as vagas disponíveis<br>e faça parte do time Moove</h3>
-							</div>
-						</div>
-					</div>
-
+					<div class="col-sm-4 col-num-2">
+						<p class="text-resume">
+							Buscamos um profissional que valorize
+							o trabalho em equipe e a colaboração
+							("TAMO JUNTO"). Alguém com mente
+							aberta, que valoriza a diversidade de
+							ideias e não tem medo de PAPO RETO.
+							É essencial ser íntegro e SEGURO
+							SEMPRE, focando em resultados e
+							agindo da forma correta. Se você
+							PENSE GRANDE e REALIZA SIMPLES,
+							queremos você no nosso time!
+						</p>
+						<button class="button_vaga"> 
+							<span>Veja as vagas</span>
+							<img src="/assets/images/icon/gota-icon-verde.png" alt="">
+						</button>
+					</div>		
+				</div>
+				<div class="row image-content">
+					<img src="/assets/images/home/image-person.jpg" alt="">
 				</div>
 			</div>
 		</section>
@@ -286,12 +296,12 @@
 						<ul class="social-media">
 							<li>
 								<a id="link-linkedin" href="" target="_blank">
-									<img src="assets/images/logos/logo-linkedin.png"/>
+									<img src="assets/images/icon/icon-linke.png"/>
 								</a>
 							</li>
 							<li>
 								<a href="https://www.glassdoor.com.br/Vis%C3%A3o-geral/Trabalhar-na-Moove-Lubrificantes-EI_IE2878407.13,32.htm" target="_blank">
-									<img src="assets/images/logos/logo-instagram.png"/>
+									<img src="assets/images/icon/icon-glass.png"/>
 								</a>
 							</li>
 						</ul>
@@ -302,15 +312,6 @@
 		</section>
 
 		<!-- COPYRIGHT -->
-		<section id="c_copyright">
-			<div class="container">
-				<div class="row">
-					<div class="col-12">
-						<h4>© <?php echo date('Y'); ?>. Todos os direitos reservados a Cosan Lubrificantes e Especialidades S.A. Proibida reprodução ou distribuição sem autorização.Todas as marcas Mobil utilizadas neste site são marcas ou marcas registradas da Exxon Mobil Corporation ou uma de suas subsidiárias, utilizadas pela Cosan Lubrificantes e Especialidades S.A., ou uma de suas subsidiárias, sob licença. A Moove (Cosan Lubrificantes e Especialidades S.A.) é a distribuidora autorizada dos lubrificantes Mobil no Brasil.</h4>
-					</div>
-				</div>
-			</div>
-		</section>
 
 		<footer>
 			<?php require("m-footer.php"); ?>			
