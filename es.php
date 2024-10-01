@@ -135,7 +135,7 @@
 
 		<!-- QUEM SOMOS -->
 		<section id="c_quem_somos">
-			<div class="container">
+
 				<div class="row">
 
 					<div class="col-md-7">
@@ -157,7 +157,6 @@
 					</div>
 
 				</div>
-			</div>
 		</section>
 
 		<!-- VÍDEO MOOVE -->
