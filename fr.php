@@ -110,10 +110,10 @@
 					</div>
 					<div class="content-language">
 						<span class="c_language">
-							<a href="#" title="PT">PT</a>
+							<a href="/index.php" title="PT">PT</a>
 							<a href="en.php" title="EN">EN</a>
 							<a href="es.php" title="ES">ES</a>
-							<a href="fr.php" title="FR">FR</a>
+							<a href="#" title="FR">FR</a>
 						</span>
 					</div>
 				</div>

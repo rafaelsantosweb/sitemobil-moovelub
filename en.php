@@ -116,8 +116,8 @@
 					</div>
 					<div class="content-language">
 						<span class="c_language">
-							<a href="#" title="PT">PT</a>
-							<a href="en.php" title="EN">EN</a>
+							<a href="/index.php" title="PT">PT</a>
+							<a href="#" title="EN">EN</a>
 							<a href="es.php" title="ES">ES</a>
 							<a href="fr.php" title="FR">FR</a>
 						</span>
@@ -267,10 +267,10 @@ Colocar o logo da NYSE.</h3>
 							right thing in all situations, focusing on results and
 							always seeking to THINK BIG and PERFORM SIMPLE
 						</p>
-						<button href="https://www.linkedin.com/company/moovelub/jobs/" target="_blank" class="button_vaga"> 
+						<a href="https://www.linkedin.com/company/moovelub/jobs/" target="_blank" class="button_vaga"> 
 							<span>All job openings</span>
 							<img src="/assets/images/icon/gota-icon-verde.png" alt="">
-						</button>
+						</a>
 					</div>		
 				</div>
 				<div class="row image-content">

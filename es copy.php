@@ -73,16 +73,14 @@
 		<section id="c_menu_banner_1">
 
 			<div class="container">
-				<div class="row content-menu">
-					<div class="col-auto content-logo">
-						<a class="nav-link nav-link-logo" href="#">
-							<img class="c_menu_logo" src="assets/images/logos/logo-moove.png" width="200"></img>
-						</a>
-					</div>
-					<div class="col-md-8 content-nav">
+				<div class="row">
+					<div class="col-md-12">
 			
-						<!-- <a href="#"><img class="c_menu_logo_mobile" src="assets/images/logos/logo-moove.png"></img></a> -->
-						<nav class="navbar navbar-expand-md navbar-light static-top justify-content-between">
+						<a href="#"><img class="c_menu_logo_mobile" src="assets/images/logos/logo-moove.png"></img></a>
+						<nav class="navbar navbar-expand-md navbar-dark static-top justify-content-between">
+							<a class="nav-link nav-link-logo" href="#">
+								<img class="c_menu_logo" src="assets/images/logos/logo-moove.png" width="200"></img>
+							</a>
 
 							<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#c_navbar">
 								<span class="navbar-toggler-icon"></span>
@@ -108,25 +106,24 @@
 									</li>
 								</ul>
 							</div>
+
+							<span class="float-right c_language">
+								<a href="#" title="PT">PT</a>
+								<a href="en.php" title="EN">EN</a>
+								<a href="es.php" title="ES">ES</a>
+								<a href="fr.php" title="FR">FR</a>
+							</span>
+
 						</nav>
+
 					</div>
-					<div class="content-language">
-						<span class="c_language">
-							<a href="/index.php" title="PT">PT</a>
-							<a href="en.php" title="EN">EN</a>
-							<a href="#" title="ES">ES</a>
-							<a href="fr.php" title="FR">FR</a>
-						</span>
-					</div>
+
 				</div>
 			</div>
 
 			<div class="container c_container_text">
 				<div id="c_menu_banner_1_text">
 					<h2>Referentes globlales en el mercado de lubricantes</h2>
-					<span>
-						<img class="img-icon-gota" src="/assets/images/icon/gota-icon-verde.png" alt="">
-					</span>
 					<h3>Trabajamos con foco en 3 prioridades: equipos de alto desempeño, cultura de eficiencia y expansión de nuestros negocios.</h3>
 				</div>
 			</div>
@@ -138,13 +135,14 @@
 			<div class="container">
 				<div class="row">
 
-					<div class="col-md-7">
-						<div class="galery">
-							<img src="assets/images/home/galeria/galery.png" alt="">
+					<div class="col-md-6">
+						<div class="owl-carousel">
+							<div class="item owl-lazy" data-src="assets/images/home/carrousel00.png"></div>
+							<div class="item owl-lazy" data-src="assets/images/home/carrousel01.png"></div>
 						</div>
 					</div>
 
-					<div class="col-md-4 text-galery">
+					<div class="col-md-6">
 						<div id="c_quem_somos_text">
 							<h2>Somos Moove</h2>
 							<h3>
@@ -163,15 +161,13 @@
 		<!-- VÍDEO MOOVE -->
 
 		<section id="c_video">
-			<div class="container">
-				<div class="video-wrapper">
-					<video autoplay muted loop>
-						<source src="assets/video/video_move.mp4" type="video/mp4">
-					</video>
-					<button type="button" class="btn-video" data-toggle="modal" data-target="#modal-video">
-						<img src="assets/images/home/right-arrow.png">
-					</button>
-				</div>
+			<div class="video-wrapper">
+				<video autoplay muted loop>
+					<source src="assets/video/video_move.mp4" type="video/mp4">
+				</video>
+				<button type="button" class="btn-video" data-toggle="modal" data-target="#modal-video">
+					<img src="assets/images/home/right-arrow.png">
+				</button>
 			</div>
 		</section>
 
@@ -226,7 +222,9 @@
 								</div>
 							</div>
 						</div>
+
 				</div>
+
 			</div>
 		</section>
 
@@ -240,26 +238,25 @@
 
 		<!-- O QUE TE MOOVE -->
 		<section id="c_moove">
-			<div class="container">
-				<div class="row box-content">
-					<div class="col-sm-8">
-						<h2>ser un<br> moover</h2>
+			<div class="container-fluid">
+				<div class="row">
+
+					<div class="col-12 col-md-6 px-0">
+						<img class="c_img_responsive c_img_100" src="assets/images/home/o-que-te-moove.png">
 					</div>
-					<div class="col-sm-4 col-num-2">
-						<p class="text-resume">
-						Buscamos un profesional que valore el trabajo en equipo y la colaboración ("ESTAMOS JUNTOS"). 
-						Alguien con mente abierta, que valore la diversidad de ideas y no tenga miedo de ser DIRECTO. 
-						Es esencial ser íntegro y SIEMPRE SEGURO, enfocado en los resultados y actuando de manera correcta. 
-						Si PIENSAS EN GRANDE y REALIZAS CON SIMPLICIDAD, ¡te queremos en nuestro equipo!
-						</p>
-						<a href="https://grupocosan.csod.com/ux/ats/careersite/4/home?c=grupocosan" target="_blank" class="button_vaga"> 
-							<span>Consulta las vacantes</span>
-							<img src="/assets/images/icon/gota-icon-verde.png" alt="">
-						</a>
-					</div>		
-				</div>
-				<div class="row image-content">
-					<img src="/assets/images/home/image-person.jpg" alt="">
+
+					<div class="col-12 col-md-6 c_moove_background px-0">
+						<div class="half-container">
+							<div id="c_moove_text">
+								<h2>¿Qué es lo que te mueve?</h2>
+								<h3>Buscamos un profesional que siempre juegue en equipo y sepa que <b>ESTAMOS JUNTOS</b> en cualquier desafío, al fin y al cabo, no se puede llegar a ningún lado solo. Tu haces hincapié en tener una <b>MENTE ABIERTA</b> para lo nuevo y crees que las mejores ideas se crean en un entorno de pluralidad, por lo que discutes lo que es importante, relevante y no tienes miedo del <b>REAL TALK</b>. Sea lo que sea, <b>SIEMPRE</b> estás <b>SEGURO</b>, haces lo correcto en todas las situaciones, enfocándote en los resultados y siempre buscando <b>PENSAR EN GRANDE</b> y <b>REALIZAR SIMPLE</b>.</h3>
+								
+								<a href="https://www.linkedin.com/company/moovelub/jobs/" target="_blank" class="btn btn-success">SER UN MOOVER</a>
+								<h3 class="c_moove_vagas">Consulta las oportunidades laborales disponibles<br>y únete al equipo de Moove</h3>
+							</div>
+						</div>
+					</div>
+
 				</div>
 			</div>
 		</section>
@@ -289,12 +286,12 @@
 						<ul class="social-media">
 							<li>
 								<a id="link-linkedin" href="" target="_blank">
-									<img src="assets/images/icon/icon-linke.png"/>
+									<img src="assets/images/logos/logo-linkedin.png"/>
 								</a>
 							</li>
 							<li>
 								<a href="https://www.glassdoor.com/Reviews/Moove-Lubrificantes-Reviews-E2878407.htm?countryRedirect=true" target="_blank">
-									<img src="assets/images/icon/icon-glass.png"/>
+									<img src="assets/images/logos/logo-instagram.png"/>
 								</a>
 							</li>
 						</ul>
@@ -305,6 +302,15 @@
 		</section>
 
 		<!-- COPYRIGHT -->
+		<section id="c_copyright">
+			<div class="container">
+				<div class="row">
+					<div class="col-12">
+						<h4>© <?php echo date('Y'); ?>. Todos os direitos reservados a Cosan Lubrificantes e Especialidades S.A. Proibida reprodução ou distribuição sem autorização.Todas as marcas Mobil utilizadas neste site são marcas ou marcas registradas da Exxon Mobil Corporation ou uma de suas subsidiárias, utilizadas pela Cosan Lubrificantes e Especialidades S.A., ou uma de suas subsidiárias, sob licença. A Moove (Cosan Lubrificantes e Especialidades S.A.) é a distribuidora autorizada dos lubrificantes Mobil no Brasil.</h4>
+					</div>
+				</div>
+			</div>
+		</section>
 
 		<footer>
 			<?php require("m-footer.php"); ?>			
