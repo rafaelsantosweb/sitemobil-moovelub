@@ -1177,6 +1177,12 @@ ul.ul-links li a:focus,
 
 @media (width >= 1920px){
 	.container {
-		max-width: 1650px;
+		max-width: 1650px !important;
+	}
+}
+
+@media (min-width: 1200px) {
+	.container {
+		max-width: 1315px;
 	}
 }
