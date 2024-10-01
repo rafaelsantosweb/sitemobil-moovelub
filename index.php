@@ -73,15 +73,16 @@
 		<section id="c_menu_banner_1">
 
 			<div class="container">
-				<div class="row">
-					<div class="col-md-12">
-			
-						<a href="#"><img class="c_menu_logo_mobile" src="assets/images/logos/logo-moove.png"></img></a>
-						<nav class="navbar navbar-expand-md navbar-dark static-top justify-content-between">
-							<a class="nav-link nav-link-logo" href="#">
-								<img class="c_menu_logo" src="assets/images/logos/logo-moove.png" width="200"></img>
-							</a>
-
+				<div class="row content-menu">
+					<div class="col-auto content-logo">
+						<a class="nav-link nav-link-logo" href="#">
+							<img class="c_menu_logo" src="assets/images/logos/logo-moove.png" width="200"></img>
+						</a>
+					</div>
+					<div class="col-md-8 content-nav">
+						<!-- <a href="#"><img class="c_menu_logo_mobile" src="assets/images/logos/logo-moove.png"></img></a> -->
+						<nav class="navbar navbar-expand-md navbar-light static-top justify-content-between">
+							
 							<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#c_navbar">
 								<span class="navbar-toggler-icon"></span>
 							</button>
@@ -109,17 +110,16 @@
 									</li>
 								</ul>
 							</div>
-							<span class="float-right c_language">
-								<a href="#" title="PT">PT</a>
-								<a href="en.php" title="EN">EN</a>
-								<a href="es.php" title="ES">ES</a>
-								<a href="fr.php" title="FR">FR</a>
-							</span>
-
 						</nav>
-
 					</div>
-
+					<div class="content-language">
+						<span class="c_language">
+							<a href="#" title="PT">PT</a>
+							<a href="en.php" title="EN">EN</a>
+							<a href="es.php" title="ES">ES</a>
+							<a href="fr.php" title="FR">FR</a>
+						</span>
+					</div>
 				</div>
 			</div>
 

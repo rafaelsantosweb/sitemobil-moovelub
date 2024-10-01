@@ -140,6 +140,7 @@ b, strong {
 	background-repeat: no-repeat;
 	background-size: cover;
 	position: relative;
+	overflow: hidden;
 }
 
 /* #c_menu_banner_1 .navbar, #c_menu_banner_1 .jumbotron {
@@ -215,7 +216,7 @@ b, strong {
 
 #c_menu_banner_1_text {
 	width: 100%;
-	max-width: 780px;	
+	max-width: 915px;	
 	margin-top: 0px;
 }
 
@@ -913,13 +914,16 @@ ul.ul-links li a:focus,
 	/* Menu Principal */
 
 	#c_navbar {
-		background-color: rgb(127, 194, 65);
 		padding: 10px;
 		z-index: 3000;
 	}
+
+	.content-menu {
+		justify-content: flex-start;
+	}
+
 	.c_container_text {
 		top: 36%;
-
 	}
 
 	#c_menu_banner_1_text {
@@ -932,8 +936,8 @@ ul.ul-links li a:focus,
 
 	#c_menu_banner_1_text h2 {
 		font-size: 38px;
-		margin-bottom: -18px;
-		font-family: 'Work Sans SM';
+		/* margin-bottom: -18px;
+		font-family: 'Work Sans SM'; */
 	}
 
 	#c_menu_banner_1_text h3 {
@@ -993,20 +997,31 @@ ul.ul-links li a:focus,
 	}
 
 	.c_diferencial_card_text {
-		min-height: 100%;
-		width: calc(100% - 50px);
-		padding: 15px 30px;
+		flex-direction: column;
 	}
 
 	.c_diferencial_card_text h2 {
 		font-size: 20px;
 		font-family: 'Work Sans Bold';
+		width: 100% !important;
 	}
 
 	.c_diferencial_card_text h3 {
-		font-size: 16px;
+		font-size: 12px;
 	}
 
+	/* Seja um moover */
+
+	#c_moove .box-content h2 {
+		font-size: 90px;
+		letter-spacing: -11px;
+	}
+	
+	#c_moove .box-content .text-resume {
+		top: 0px;
+		font-size: 3vw;
+	}
+	
 	/* Links Úteis */
 
 	#c_links_uteis h3, #c_links_uteis ul {
@@ -1023,14 +1038,17 @@ ul.ul-links li a:focus,
 		padding-bottom: 20px;
 	}
 
+	.social-media li img{
+		height: 10.6vw;
+	}
+
 	.c_social {
 		margin: 0;
 	}
 
 	#c_mapa h2 {
-		font-weight: 700;
-		padding-left: 15px;
-		font-family: 'Work Sans MD';
+		top: 50px;
+		font-size: 35px;
 	}
 
 	#c_mapa h2:before {
@@ -1053,9 +1071,17 @@ ul.ul-links li a:focus,
 		margin-left: 10px !important;
 	}
 
-	.nav-link-logo {
-		display: none;
+	.content-language {
+		order: 1;
+		padding-left: 2px;
 	}
+
+	.content-nav {
+		order: 2;
+	}
+	/* .nav-link-logo {
+		display: none;
+	} */
 
 	/* Copyright */
 

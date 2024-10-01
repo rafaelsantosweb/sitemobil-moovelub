@@ -3,11 +3,29 @@
   border-bottom-left-radius: 50px;
 }
 
-.navbar {
-  background-color: #F0F3EC;
+#c_menu_banner_1 .content-language{
   align-items: center;
-  padding: 3px 17px;
+  display: flex;
+  justify-content: end;
+  padding-left: 0;
+}
+
+#c_menu_banner_1 .content-logo {
+  display: flex;
+}
+
+#c_menu_banner_1 .content-logo .nav-link-logo {
+  align-self: center;
+}
+
+.content-menu {
+  background-color: #F0F3EC;
   border-radius: 40px;
+  justify-content: space-around;
+}
+
+.navbar {
+  align-items: center;
 }
 
 .navbar .navbar-nav {
