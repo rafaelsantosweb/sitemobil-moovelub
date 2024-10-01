@@ -77,42 +77,46 @@
 					<div class="col-md-12">
 			
 						<a href="#"><img class="c_menu_logo_mobile" src="assets/images/logos/logo-moove.png"></img></a>
-						<nav class="navbar navbar-expand-md navbar-dark static-top justify-content-between">
-							<a class="nav-link nav-link-logo" href="#">
-								<img class="c_menu_logo" src="assets/images/logos/logo-moove.png" width="200"></img>
-							</a>
+			
+						<span class="float-right c_language">
+							<a href="index.php" title="PT">PT</a>
+							<a href="en.php" title="EN">EN</a>
+							<a href="es.php" title="ES">ES</a>
+							<a href="fr.php" title="FR">FR</a>
+						</span>
+
+						<img class="c_menu_bar" src="assets/images/logos/bar.png"></img>
+
+						<nav class="navbar navbar-expand-md navbar-dark static-top" style="padding-top: 20px;">
 
 							<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#c_navbar">
 								<span class="navbar-toggler-icon"></span>
 							</button>
 
 							<div class="collapse navbar-collapse" id="c_navbar">
-								<ul class="navbar-nav mx-auto justify-content-center w-100">
-
+								<ul class="navbar-nav mx-auto justify-content-between w-100">
 									<li class="nav-item">
-										<a class="nav-link" href="#c_menu_banner_1">Inicio</a>
+										<a class="nav-link nav-link-logo" href="#">
+											<img class="c_menu_logo" src="assets/images/logos/logo-moove.png" width="200"></img>
+										</a>
 									</li>
 									<li class="nav-item">
-										<a class="nav-link" href="#c_quem_somos" data-offset="-80">Qué hacemos</a>
+										<a class="nav-link" href="#c_menu_banner_1">Accueil</a>
 									</li>
 									<li class="nav-item">
-										<a class="nav-link" href="#c_mapa">Dónde estamos</a>
+										<a class="nav-link" href="#c_quem_somos" data-offset="-80">Que faisons-nous</a>
 									</li>
 									<li class="nav-item">
-										<a class="nav-link" href="/sustentabilidade/es/">Sustentabilidad</a>
+										<a class="nav-link" href="#c_mapa">Où sommes-nous</a>
 									</li>
 									<li class="nav-item">
-										<a class="nav-link" href="#c_moove">Trabaja con nosotros</a>
+										<a class="nav-link" href="/sustentabilidade/fr/">Développement durable</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" href="#c_moove">Travaillez avec nous</a>
 									</li>
 								</ul>
 							</div>
-
-							<span class="float-right c_language">
-								<a href="#" title="PT">PT</a>
-								<a href="en.php" title="EN">EN</a>
-								<a href="es.php" title="ES">ES</a>
-								<a href="fr.php" title="FR">FR</a>
-							</span>
 
 						</nav>
 
@@ -123,8 +127,8 @@
 
 			<div class="container c_container_text">
 				<div id="c_menu_banner_1_text">
-					<h2>Referentes globlales en el mercado de lubricantes</h2>
-					<h3>Trabajamos con foco en 3 prioridades: equipos de alto desempeño, cultura de eficiencia y expansión de nuestros negocios.</h3>
+					<h2>Référence mondiale sur le marché des lubrifiants</h2>
+					<h3>Nous travaillons en nous focalisant sur 3 priorités : des équipes performantes, une culture de l'efficacité et l'expansion de l'entreprise.</h3>
 				</div>
 			</div>
 
@@ -144,12 +148,12 @@
 
 					<div class="col-md-6">
 						<div id="c_quem_somos_text">
-							<h2>Somos Moove</h2>
+							<h2>Nous sommes Moove</h2>
 							<h3>
-								Producimos, vendemos y distribuimos lubricantes y grasas para los segmentos automotriz, agrícola, aéreo, naval e industrial asegurando productividad, eficiencia y desempeño.
+								Nous produisons, vendons et distribuons des lubrifiants et des graisses pour les secteurs Industriel, Automotive, Aviation et Marine, garantissant productivité, efficacité et performance.
 								<br><br>
 
-								Somos parte del Grupo Cosan. De origen brasileño y con operaciones internacionales, somos uno de los mayores productores y distribuidores de lubricantes y aceites básicos en Sudamérica, Europa y Estados Unidos.
+								Nous faisons partie du groupe Cosan. Avec des origines brésiliennes et des opérations internationales, nous sommes l’un des plus grands producteurs et distributeurs de lubrifiants et d’huiles de base en Amérique du Sud, en Europe et aux États-Unis.
 							</h3>
 						</div>
 					</div>
@@ -177,7 +181,7 @@
 
 				<div class="row">
 					<div class="col-12 c_diferencial_title">
-						<h2>Crecimiento constante<br>en grandes mercados</h2>
+						<h2>Croissance constante<br>sur les marchés porteurs</h2>
 					</div>
 				</div>
 
@@ -187,8 +191,8 @@
 							<div class="c_diferencial_card">
 								<img src="assets/images/home/img1.png" class="c_img_responsive"></img>
 								<div class="c_diferencial_card_text">
-									<h2>LÍDER EN LUBRICANTES <br> DE ALTO RENDIMIENTO</h2>
-									<h3>Desde nuestra planta en Río de Janeiro, producimos y distribuimos lubricantes Mobil ™ en todo el territorio brasileño.</h3>
+									<h2>LEADER DES LUBRIFIANTS <br> HAUTES PERFORMANCES</h2>
+									<h3>Depuis notre usine en Angleterre, avec Pro-Brands, nous vendons dans plus de 40 pays, incluant l'Asie. Et nous sommes les distributeurs autorisés pour les lubrifiants Mobil ™ au Royaume-Uni, en Espagne, en France et au Portugal.</h3>
 								</div>
 							</div>
 						</div>
@@ -197,8 +201,8 @@
 							<div class="c_diferencial_card">
 								<img src="assets/images/home/img2.png" class="c_img_responsive"></img>
 								<div class="c_diferencial_card_text">
-									<h2>HUELLA EN LOS MERCADOS <br>LATINOAMERICANOS</h2>
-									<h3>Con oficina en Buenos Aires, atendemos los mercados de Argentina, Bolivia, Paraguay y Uruguay.</h3>
+									<h2>PRÉSENCE SUR LES MARCHÉS <br>D'AMÉRIQUE LATINE</h2>
+									<h3>Grâce à notre bureau à Buenos Aires, nous desservons les marchés de l'Argentine, de la Bolivie, du Paraguay et de l'Uruguay.</h3>
 								</div>
 							</div>
 						</div>
@@ -207,8 +211,8 @@
 							<div class="c_diferencial_card">
 								<img src="assets/images/home/img3.png" class="c_img_responsive"></img>
 								<div class="c_diferencial_card_text">
-									<h2>EN EUROPA Y MÁS <br> DE 40 PAÍSES</h2>
-									<h3>Desde nuestra fábrica en Inglaterra, con Pro-Brands, vendemos a más de 40 países, llegando a Asia. Y distribuimos lubricantes Mobil ™ al Reino Unido, España, Francia y Portugal.</h3>
+									<h2>EN EUROPE ETPLUS <br> DE 40 PAYS</h2>
+									<h3>Depuis notre usine en Angleterre, avec Pro-Brands, nous vendons dans plus de 40 pays, incluant l'Asie. Et nous distribuons les lubrifiants Mobil ™ au Royaume-Uni, en Espagne, en France et au Portugal.</h3>
 								</div>
 							</div>
 						</div>
@@ -217,8 +221,8 @@
 							<div class="c_diferencial_card">
 								<img src="assets/images/home/img4.png" class="c_img_responsive"></img>
 								<div class="c_diferencial_card_text">
-									<h2>UNO DE LOS MAYORES DISTRIBUIDORES DE <br> LUBRICANTES DE ESTADOS UNIDOS</h2>
-									<h3>Desde nuestras plantas y con más de 50 centros de distribución en todo el país, producimos y comercializamos lubricantes para más de las dos terceras partes de todo el territorio americano.</h3>
+									<h2>L’UN DES PLUS GRANDS <br> DISTRIBUTEURS DES ÉTATS-UNIS</h2>
+									<h3>Depuis nos usines et plus de 50 centres de distribution dans le pays, nous produisons et vendons des lubrifiants à plus des deux tiers du territoire américain.</h3>
 								</div>
 							</div>
 						</div>
@@ -231,7 +235,7 @@
 		<!-- MAPA (ENDEREÇOS) -->
 		<section id="c_mapa">
 			<div class="container">
-				<h2>Dónde estamos</h2>
+				<h2>Où sommes-nous</h2>
 			</div>
 			<div id="mapplic"></div>
 		</section>
@@ -248,11 +252,11 @@
 					<div class="col-12 col-md-6 c_moove_background px-0">
 						<div class="half-container">
 							<div id="c_moove_text">
-								<h2>¿Qué es lo que te mueve?</h2>
-								<h3>Buscamos un profesional que siempre juegue en equipo y sepa que <b>ESTAMOS JUNTOS</b> en cualquier desafío, al fin y al cabo, no se puede llegar a ningún lado solo. Tu haces hincapié en tener una <b>MENTE ABIERTA</b> para lo nuevo y crees que las mejores ideas se crean en un entorno de pluralidad, por lo que discutes lo que es importante, relevante y no tienes miedo del <b>REAL TALK</b>. Sea lo que sea, <b>SIEMPRE</b> estás <b>SEGURO</b>, haces lo correcto en todas las situaciones, enfocándote en los resultados y siempre buscando <b>PENSAR EN GRANDE</b> y <b>REALIZAR SIMPLE</b>.</h3>
+								<h2>Qu'est-ce qui vous Moove?</h2>
+								<h3>Nous recherchons un professionnel qui a l’esprit d’équipe et qui sait que <b>NOUS SOMMES ENSEMBLE</b> dans n'importe quel défi, après tout, vous ne pouvez aller nulle part tout seul. Vous mettez un point d'honneur à avoir une <b>OUVERTURE D’ESPRIT</b> à la nouveauté et vous croyez que les meilleures idées sont créées dans un environnement riche en diversité, donc vous discutez de ce qui est important, pertinent et n'avez pas peur du <b>PARLER VRAI</b>. Quoi qu'il en soit, vous êtes <b>TOUJOURS SÛR</b>, vous faites ce qu'il faut dans toutes les situations, en vous concentrant sur les résultats et en cherchant toujours à <b>PENSER GRAND</b> en <b>FAISANT SIMPLEMENT</b>.</h3>
 								
-								<a href="https://www.linkedin.com/company/moovelub/jobs/" target="_blank" class="btn btn-success">SER UN MOOVER</a>
-								<h3 class="c_moove_vagas">Consulta las oportunidades laborales disponibles<br>y únete al equipo de Moove</h3>
+								<a href="https://www.linkedin.com/company/moovelub/jobs/" target="_blank" class="btn btn-success">SOYEZ UN MOOVER</a>
+								<h3 class="c_moove_vagas">Consultez les offres d'emploi disponibles<br>et rejoignez l'équipe Moove</h3>
 							</div>
 						</div>
 					</div>
@@ -267,13 +271,13 @@
 				<div class="row">
 
 					<div class="col-12 col-md-6 c_links_uteis_pt1">
-						<h2>Enlaces útiles</h2>
+						<h2>Liens utiles</h2>
 						<ul class="ul-links">
 							<li>
-								<a href="https://www.cosan.com.br/" target="_blank">Grupo Cosan</a>
+								<a href="https://www.cosan.com.br/" target="_blank">Groupe Cosan</a>
 							</li>
 							<li>
-								<a href="https://ri.cosan.com.br/" target="_blank">Relación con inversores</a>
+								<a href="https://ri.cosan.com.br/" target="_blank">Relation avec les investisseurs</a>
 							</li>
 							<li>
 								<a id="link-moovelub" href="/mobil" target="_blank">Mobil™</a>
@@ -282,7 +286,7 @@
 					</div>
 
 					<div class="col-12 col-md-6 c_links_uteis_pt2">
-						<h3 class="h3-link"><a href="politica_es.php" target="_blank">Política de privacidad</a></h3>
+						<h3 class="h3-link"><a href="politique_fr.php" target="_blank">Politique de confidentialité</a></h3>
 						<ul class="social-media">
 							<li>
 								<a id="link-linkedin" href="" target="_blank">
@@ -325,13 +329,13 @@
     padding-right: 14px;
     padding-left: 15px;
 ">
-							Almacenamos cookies en su dispositivo para brindar una mejor experiencia. Al utilizar este sitio, estas aceptando nuestra política de privacidad. <a href="politica.php">política de privacidad</a> 
+							Nous stockons des cookies sur votre appareil pour offrir une meilleure expérience. En utilisant ce site, vous acceptez notre politique de confidentialité <a href="politica.php">politique de confidentialité</a> 
 							</p>
 						</div>
 						<div class="col-xl-4 col-md-4 col-sm-12">
 							<div class="button-wrapper">
-								<button class="agree-button" type="button">acepto</button>
-								<button class="desagree-button text-light" type="button">no acepto</button>
+								<button class="agree-button" type="button">j'accepte</button>
+								<button class="desagree-button text-light" type="button">je n'accepte pas</button>
 							</div>
 						</div>
 					</div> 
@@ -349,8 +353,8 @@
 
 					<div class="modal-body">
 						<div class="embed-responsive embed-responsive-16by9">
-							<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/5U5uIPJImnU" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-								</div>
+							<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/O1LsQ8i-ofQ" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+						</div>
 					</div>
 
 				</div>
@@ -360,3 +364,4 @@
 	</body>
 
 </html>
+

@@ -104,6 +104,9 @@
 									<li class="nav-item">
 										<a class="nav-link" href="#c_moove">Trabalhe conosco</a>
 									</li>
+									<li class="nav-item">
+										<a class="nav-link" href="#c_moove_investidores">Relação com investidores</a>
+									</li>
 								</ul>
 							</div>
 							<span class="float-right c_language">

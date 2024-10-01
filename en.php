@@ -75,31 +75,31 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-md-12">
+
+
+
+
+
 			
 						<a href="#"><img class="c_menu_logo_mobile" src="assets/images/logos/logo-moove.png"></img></a>
-			
-						<span class="float-right c_language">
-							<a href="index.php" title="PT">PT</a>
-							<a href="en.php" title="EN">EN</a>
-							<a href="es.php" title="ES">ES</a>
-							<a href="fr.php" title="FR">FR</a>
-						</span>
-
-						<img class="c_menu_bar" src="assets/images/logos/bar.png"></img>
-
-						<nav class="navbar navbar-expand-md navbar-dark static-top" style="padding-top: 20px;">
+						<nav class="navbar navbar-expand-md navbar-dark static-top justify-content-between">
+							<a class="nav-link nav-link-logo" href="#">
+								<img class="c_menu_logo" src="assets/images/logos/logo-moove.png" width="200"></img>
+							</a>
 
 							<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#c_navbar">
 								<span class="navbar-toggler-icon"></span>
 							</button>
 
 							<div class="collapse navbar-collapse" id="c_navbar">
-								<ul class="navbar-nav mx-auto justify-content-between w-100">
-									<li class="nav-item">
-										<a class="nav-link nav-link-logo" href="#">
-											<img class="c_menu_logo" src="assets/images/logos/logo-moove.png" width="200"></img>
-										</a>
-									</li>
+								<ul class="navbar-nav mx-auto justify-content-center w-100">
+
+
+
+
+
+
+
 									<li class="nav-item">
 										<a class="nav-link" href="#c_menu_banner_1">Home</a>
 									</li>
@@ -115,8 +115,18 @@
 									<li class="nav-item">
 										<a class="nav-link" href="#c_moove">Work with us</a>
 									</li>
+									<li class="nav-item">
+										<a class="nav-link" href="#c_moove">Investors Relation</a>
+									</li>
+
 								</ul>
 							</div>
+							<span class="float-right c_language">
+								<a href="#" title="PT">PT</a>
+								<a href="en.php" title="EN">EN</a>
+								<a href="es.php" title="ES">ES</a>
+								<a href="fr.php" title="FR">FR</a>
+							</span>
 
 						</nav>
 
@@ -357,7 +367,7 @@
 					<div class="modal-body">
 						<div class="embed-responsive embed-responsive-16by9">
 							<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/P1gv4qi_ZcA" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-						</div>
+								</div>
 					</div>
 
 				</div>
@@ -367,4 +377,6 @@
 	</body>
 
 </html>
+
+
 
