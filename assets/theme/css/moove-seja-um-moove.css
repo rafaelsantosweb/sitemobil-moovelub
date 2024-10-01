@@ -17,6 +17,7 @@
   font-weight: 300;
   line-height: .8;
   color: #A8CC38;
+  margin-bottom: 30px;
 }
 
 #c_moove .box-content .col-num-2 {
@@ -45,6 +46,9 @@
   padding-right: 6px;
   padding-bottom: 0px;
   padding-left: 34px;
+  background-color: #F0F3EC;
+  color: #093D5E;
+  text-decoration: none;
 }
 
 #c_moove .box-content .col-num-2 .button_vaga img {

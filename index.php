@@ -262,10 +262,10 @@
 							PENSE GRANDE e REALIZA SIMPLES,
 							queremos você no nosso time!
 						</p>
-						<button class="button_vaga"> 
+						<a href="https://grupocosan.csod.com/ux/ats/careersite/4/home?c=grupocosan" target="_blank" class="button_vaga"> 
 							<span>Veja as vagas</span>
 							<img src="/assets/images/icon/gota-icon-verde.png" alt="">
-						</button>
+						</a>
 					</div>		
 				</div>
 				<div class="row image-content">

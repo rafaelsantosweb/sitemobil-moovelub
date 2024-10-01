@@ -73,14 +73,15 @@
 		<section id="c_menu_banner_1">
 
 			<div class="container">
-				<div class="row">
-					<div class="col-md-12">
-			
-						<a href="#"><img class="c_menu_logo_mobile" src="assets/images/logos/logo-moove.png"></img></a>
-						<nav class="navbar navbar-expand-md navbar-dark static-top justify-content-between">
-							<a class="nav-link nav-link-logo" href="#">
-								<img class="c_menu_logo" src="assets/images/logos/logo-moove.png" width="200"></img>
-							</a>
+				<div class="row content-menu">
+					<div class="col-auto content-logo">
+						<a class="nav-link nav-link-logo" href="#">
+							<img class="c_menu_logo" src="assets/images/logos/logo-moove.png" width="200"></img>
+						</a>
+					</div>
+					<div class="col-md-8 content-nav">
+		
+						<nav class="navbar navbar-expand-md navbar-light static-top justify-content-between">
 
 							<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#c_navbar">
 								<span class="navbar-toggler-icon"></span>
@@ -105,24 +106,23 @@
 									</li>
 								</ul>
 							</div>
-
-							<span class="float-right c_language">
-								<a href="#" title="PT">PT</a>
-								<a href="en.php" title="EN">EN</a>
-								<a href="es.php" title="ES">ES</a>
-								<a href="fr.php" title="FR">FR</a>
-							</span>
-
 						</nav>
-
 					</div>
-
+					<div class="content-language">
+						<span class="c_language">
+							<a href="#" title="PT">PT</a>
+							<a href="en.php" title="EN">EN</a>
+							<a href="es.php" title="ES">ES</a>
+							<a href="fr.php" title="FR">FR</a>
+						</span>
+					</div>
 				</div>
 			</div>
 
 			<div class="container c_container_text">
 				<div id="c_menu_banner_1_text">
 					<h2>Référence mondiale sur le marché des lubrifiants</h2>
+					<span><img class="img-icon-gota" src="/assets/images/icon/gota-icon-verde.png" alt=""></span>
 					<h3>Nous travaillons en nous focalisant sur 3 priorités : des équipes performantes, une culture de l'efficacité et l'expansion de l'entreprise.</h3>
 				</div>
 			</div>
@@ -131,43 +131,43 @@
 
 		<!-- QUEM SOMOS -->
 		<section id="c_quem_somos">
-			<div class="container">
-				<div class="row">
 
-					<div class="col-md-6">
-						<div class="owl-carousel">
-							<div class="item owl-lazy" data-src="assets/images/home/carrousel00.png"></div>
-							<div class="item owl-lazy" data-src="assets/images/home/carrousel01.png"></div>
-						</div>
+			<div class="row">
+
+				<div class="col-md-7">
+					<div class="galery">
+				    <img src="assets/images/home/galeria/galery.png" alt="">
 					</div>
-
-					<div class="col-md-6">
-						<div id="c_quem_somos_text">
-							<h2>Nous sommes Moove</h2>
-							<h3>
-								Nous produisons, vendons et distribuons des lubrifiants et des graisses pour les secteurs Industriel, Automotive, Aviation et Marine, garantissant productivité, efficacité et performance.
-								<br><br>
-
-								Nous faisons partie du groupe Cosan. Avec des origines brésiliennes et des opérations internationales, nous sommes l’un des plus grands producteurs et distributeurs de lubrifiants et d’huiles de base en Amérique du Sud, en Europe et aux États-Unis.
-							</h3>
-						</div>
-					</div>
-
 				</div>
+
+				<div class="col-md-4 text-galery">
+					<div id="c_quem_somos_text">
+						<h2>Nous sommes Moove</h2>
+						<h3>
+							Nous produisons, vendons et distribuons des lubrifiants et des graisses pour les secteurs Industriel, Automotive, Aviation et Marine, garantissant productivité, efficacité et performance.
+							<br><br>
+
+							Nous faisons partie du groupe Cosan. Avec des origines brésiliennes et des opérations internationales, nous sommes l’un des plus grands producteurs et distributeurs de lubrifiants et d’huiles de base en Amérique du Sud, en Europe et aux États-Unis.
+						</h3>
+					</div>
+				</div>
+
 			</div>
 		</section>
 
 		<!-- VÍDEO MOOVE -->
 
 		<section id="c_video">
-			<div class="video-wrapper">
-				<video autoplay muted loop>
-					<source src="assets/video/video_move.mp4" type="video/mp4">
-				</video>
-				<button type="button" class="btn-video" data-toggle="modal" data-target="#modal-video">
-					<img src="assets/images/home/right-arrow.png">
-				</button>
-			</div>
+			<div class="container">
+				<div class="video-wrapper">
+					<video autoplay muted loop>
+						<source src="assets/video/video_move.mp4" type="video/mp4">
+					</video>
+					<button type="button" class="btn-video" data-toggle="modal" data-target="#modal-video">
+						<img src="assets/images/home/right-arrow.png">
+					</button>
+				</div>
+			</div>	
 		</section>
 
 		<!-- DIFERENCIAL -->
@@ -237,25 +237,30 @@
 
 		<!-- O QUE TE MOOVE -->
 		<section id="c_moove">
-			<div class="container-fluid">
-				<div class="row">
-
-					<div class="col-12 col-md-6 px-0">
-						<img class="c_img_responsive c_img_100" src="assets/images/home/o-que-te-moove.png">
+			<div class="container">
+				<div class="row box-content">
+					<div class="col-sm-8">
+						<h2>soyez un<br> moover</h2>
 					</div>
-
-					<div class="col-12 col-md-6 c_moove_background px-0">
-						<div class="half-container">
-							<div id="c_moove_text">
-								<h2>Qu'est-ce qui vous Moove?</h2>
-								<h3>Nous recherchons un professionnel qui a l’esprit d’équipe et qui sait que <b>NOUS SOMMES ENSEMBLE</b> dans n'importe quel défi, après tout, vous ne pouvez aller nulle part tout seul. Vous mettez un point d'honneur à avoir une <b>OUVERTURE D’ESPRIT</b> à la nouveauté et vous croyez que les meilleures idées sont créées dans un environnement riche en diversité, donc vous discutez de ce qui est important, pertinent et n'avez pas peur du <b>PARLER VRAI</b>. Quoi qu'il en soit, vous êtes <b>TOUJOURS SÛR</b>, vous faites ce qu'il faut dans toutes les situations, en vous concentrant sur les résultats et en cherchant toujours à <b>PENSER GRAND</b> en <b>FAISANT SIMPLEMENT</b>.</h3>
-								
-								<a href="https://www.linkedin.com/company/moovelub/jobs/" target="_blank" class="btn btn-success">SOYEZ UN MOOVER</a>
-								<h3 class="c_moove_vagas">Consultez les offres d'emploi disponibles<br>et rejoignez l'équipe Moove</h3>
-							</div>
-						</div>
-					</div>
-
+					<div class="col-sm-4 col-num-2">
+						<p class="text-resume">
+							Nous recherchons un professionnel qui valorise 
+							le travail en équipe et la collaboration ("ON EST ENSEMBLE"). 
+							Quelqu’un d’ouvert d’esprit, 
+							qui valorise la diversité des idées et n’a pas peur d’être FRANC. 
+							Il est essentiel d’être intègre et TOUJOURS SÛR, 
+							en se concentrant sur les résultats et en agissant de la bonne manière. 
+							Si vous PENSEZ GRAND et RÉALISEZ SIMPLEMENT, 
+							nous voulons que vous rejoigniez notre équipe !
+						</p>
+						<a href="https://www.linkedin.com/company/moovelub/jobs/" target="_blank" class="button_vaga"> 
+							<span>Voyez les offres d'emploi</span>
+							<img src="/assets/images/icon/gota-icon-verde.png" alt="">
+						</a>
+					</div>		
+				</div>
+				<div class="row image-content">
+					<img src="/assets/images/home/image-person.jpg" alt="">
 				</div>
 			</div>
 		</section>
@@ -285,12 +290,12 @@
 						<ul class="social-media">
 							<li>
 								<a id="link-linkedin" href="" target="_blank">
-									<img src="assets/images/logos/logo-linkedin.png"/>
+									<img src="assets/images/icon/icon-linke.png"/>
 								</a>
 							</li>
 							<li>
 								<a href="https://www.glassdoor.com/Reviews/Moove-Lubrificantes-Reviews-E2878407.htm?countryRedirect=true" target="_blank">
-									<img src="assets/images/logos/logo-instagram.png"/>
+									<img src="assets/images/icon/icon-glass.png"/>
 								</a>
 							</li>
 						</ul>
@@ -301,15 +306,6 @@
 		</section>
 
 		<!-- COPYRIGHT -->
-		<section id="c_copyright">
-			<div class="container">
-				<div class="row">
-					<div class="col-12">
-						<h4>© <?php echo date('Y'); ?>. Todos os direitos reservados a Cosan Lubrificantes e Especialidades S.A. Proibida reprodução ou distribuição sem autorização.Todas as marcas Mobil utilizadas neste site são marcas ou marcas registradas da Exxon Mobil Corporation ou uma de suas subsidiárias, utilizadas pela Cosan Lubrificantes e Especialidades S.A., ou uma de suas subsidiárias, sob licença. A Moove (Cosan Lubrificantes e Especialidades S.A.) é a distribuidora autorizada dos lubrificantes Mobil no Brasil.</h4>
-					</div>
-				</div>
-			</div>
-		</section>
 
 		<footer>
 			<?php require("m-footer.php"); ?>			
