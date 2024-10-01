@@ -17,3 +17,17 @@ $(document).ready(function() {
 		$('.editor-window').slideUp(200);
 	});
 });
+
+// Obtém a URL atual
+const currentUrl = window.location.pathname; // Obtém o caminho completo
+
+// Seleciona todos os links dentro de .c_language
+const links = document.querySelectorAll('.c_language a');
+
+// Itera sobre os links
+links.forEach(link => {
+    // Verifica se o href do link corresponde à URL atual ou se é '#'
+    if (link.getAttribute('href') === currentUrl || link.getAttribute('href') === '#') {
+        link.classList.add('active'); // Adiciona a classe active
+    }
+});

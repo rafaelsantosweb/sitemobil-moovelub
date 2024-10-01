@@ -10,6 +10,11 @@
   padding-left: 0;
 }
 
+#c_menu_banner_1 .content-language a.active {
+  background-color: #11293A;
+  color: #fff;
+}
+
 #c_menu_banner_1 .content-logo {
   display: flex;
 }
