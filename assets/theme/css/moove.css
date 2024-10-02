@@ -226,6 +226,7 @@ b, strong {
 	color: #fff;
 	font-size: 6rem;
 	font-weight: 300;
+	padding-bottom: 2rem;
 }
 
 #c_menu_banner_1_text h3 {
@@ -245,7 +246,7 @@ b, strong {
 
 #c_quem_somos {
 	/* min-height: 762px; */
-	padding: 80px 0;
+	padding: 120px 0;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -482,11 +483,12 @@ b, strong {
 
 .c_diferencial_card_text h3 {
 	width: 228px;
-	font-size: .7vw;
+	font-size: .8vw;
 	-webkit-hyphens: auto;
   -ms-hyphens: auto;
 	hyphens: auto;	
 	display: flex;
+	line-height: 1.4;	
 }
 
 .c_diferencial_card_text h3::before {

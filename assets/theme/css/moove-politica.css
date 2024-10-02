@@ -238,7 +238,6 @@ b, strong {
 	background-repeat: no-repeat;
 	background-size: cover;
 	position: relative;
-    padding-top: 50px;
 }
 
 /* Image */
@@ -375,7 +374,7 @@ b, strong {
 	font-size: 17px;
 	font-weight: 300;
 	-webkit-hyphens: auto;
-  -ms-hyphens: auto;
+  	-ms-hyphens: auto;
 	hyphens: auto;	
 }
 
@@ -702,7 +701,7 @@ ul.ul-links li a:focus,
 	}
 
 	#c_menu_banner_1_text h2 {
-		font-size: 35px;
+		font-size: 34px;
 		margin-bottom: -18px;
 		font-family: 'Work Sans SM';
 	}
