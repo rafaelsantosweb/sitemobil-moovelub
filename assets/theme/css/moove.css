@@ -1174,6 +1174,36 @@ ul.ul-links li a:focus,
 	#c_links_uteis {
 		padding: 30px 15px;
 	}
+
+	#c_quem_somos {
+		padding: 60px 0;
+	}
+
+    #c_menu_banner_1_text h2 {
+        font-size: 27px;
+    }
+
+	#c_menu_banner_1_text h2 {
+		color: #fff;
+		font-weight: 300;
+		padding-bottom: 1rem;
+	}
+	#c_menu_banner_1_text h3 {
+		margin-top: 5px;
+		color: #fff;
+		font-size: 18px;
+		font-weight: 300;
+		line-height: 1.4;
+		max-width: 420px;
+	}
+	.c_container_text {
+		margin-top: 13px;
+	}
+	#c_quem_somos_text h3 {
+		font-size: 18px;
+
+	}
+
 }
 
 
