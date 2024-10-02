@@ -87,7 +87,6 @@
 							<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#c_navbar">
 								<span class="navbar-toggler-icon"></span>
 							</button>
-
 							<div class="collapse navbar-collapse" id="c_navbar">
 								<ul class="navbar-nav mx-auto justify-content-center w-100">
 
@@ -105,6 +104,9 @@
 									</li>
 									<li class="nav-item">
 										<a class="nav-link" href="#c_moove">Trabaja con nosotros</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" href="https://www.cosan.com.br/" target="_blank">Relaciones con inversores</a>
 									</li>
 								</ul>
 							</div>

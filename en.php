@@ -107,9 +107,8 @@
 										<a class="nav-link" href="#c_moove">Work with us</a>
 									</li>
 									<li class="nav-item">
-										<a class="nav-link" href="#c_moove">Investors Relation</a>
+										<a class="nav-link" href="https://www.cosan.com.br/" target="_blank">Investors Relation</a>
 									</li>
-
 								</ul>
 							</div>
 						</nav>
