@@ -133,6 +133,7 @@
 					<h3>We move people and businesses the right way for all.
 
 Colocar o logo da NYSE.</h3>
+					<span><img class="logo-nyse" src="/assets/images/logos/logo NSE.png" alt=""></span>
 				</div>
 			</div>
 
@@ -140,27 +141,39 @@ Colocar o logo da NYSE.</h3>
 
 		<!-- QUEM SOMOS -->
 		<section id="c_quem_somos">
+			<div class="container">
 				<div class="row">
-
-				<div class="col-md-7">
-					<div class="galery">
-				    <img src="assets/images/home/galeria/galery.png" alt="">
-					</div>
-				</div>
-
 					<div class="col-md-4 text-galery">
 						<div id="c_quem_somos_text">
-							<h2>We are Moove</h2>
-							<h3>
-							We are a focused lubricants company that provides lubricant solutions that generate value and positive impact for our customers, as they increase the efficiency, performance and sustainability of automotive and commercial vehicles and industrial equipment across a diverse range of industries.
-								<br><br>
-
-								With Brazilian origins and international operations, we are one of the largest producers and distributors of lubricants and base oils in South America, also present in Europe and the United States.
-							</h3>
+							<h2>We are <img class="logo-text" src="assets/images/logos/logo-moove.png" alt=""></h2>
 						</div>
 					</div>
-
+					<div class="col-md-4">
+						<h3>
+							We are a focused lubricants company that provides lubricant solutions that generate value and positive impact for our customers, as they increase the efficiency, performance and sustainability of automotive and commercial vehicles and industrial equipment across a diverse range of industries.
+						</h3>
+					</div>
+					<div class="col">
+						<h3>
+							With Brazilian origins and international operations, we are one of the largest producers and distributors of lubricants and base oils in South America, also present in Europe and the United States.
+						</h3>
+					</div>
 				</div>
+			</div>	
+			<div class="carrossel-galery">
+				<div calss="card-1"><img src="/assets/images/slide-itens/slide-item-01.png" alt=""></div>
+				<div class="card-2"> 
+					<div class="text-slide-item">
+						<h2>
+							Our lubricants are everywhere
+						</h2>
+					</div> 
+				</div>
+				<div class="card-3">
+					<img src="/assets/images/slide-itens/BrasilComS_00050.jpg" alt="">
+				</div>
+				<!-- <div class="card-4"></div> -->	 
+			</div>			
 		</section>
 
 		<!-- VÍDEO MOOVE -->
@@ -240,10 +253,10 @@ Colocar o logo da NYSE.</h3>
 
 		<!-- MAPA (ENDEREÇOS) -->
 		<section id="c_mapa">
-			<div class="container">
+			<div class="container map-container">
+				<div id="mapplic"></div>
 				<h2>The world we move</h2>
 			</div>
-			<div id="mapplic"></div>
 		</section>
 
 		<!-- O QUE TE MOOVE -->

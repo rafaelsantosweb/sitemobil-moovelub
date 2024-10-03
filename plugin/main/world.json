@@ -95,14 +95,15 @@
 					"pin" : "pin-image",
 					"label" : "./plugin/main/images/pin/united-kingdown.png"
 				},
-				{					
-					"title": "Brasil",
+				{
+					"id": "br",
+					"title": "Brazil",
 					"description": "RIO DE JANEIRO <br> Rua Campo da Ribeira, 51 <br>Ribeira CEP 21930-080 <br>+55 21 3386-2218 <br> <a href='mailto:falecomamoove@moovelub.com'>falecomamoove@moovelub.com</a>",
 					"link": "http://moovelub.com/mobil",
 					"x": "0.3900",
 					"y": "0.7343",
 					"pin" : "pin-image",
-					"label" : "./plugin/main/images/pin/brasil-pin.png"
+					"label" : "./plugin/main/images/gota.png"
 				},
 				{
 					"id": "ar",

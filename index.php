@@ -154,8 +154,6 @@
 					</div>
 				</div>
 			</div>
-
-
 			<div class="carrossel-galery">
 				<div calss="card-1"><img src="/assets/images/slide-itens/slide-item-01.png" alt=""></div>
 				<div class="card-2"> 

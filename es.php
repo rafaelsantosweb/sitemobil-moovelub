@@ -130,6 +130,7 @@
 						<img class="img-icon-gota" src="/assets/images/icon/gota-icon-verde.png" alt="">
 					</span>
 					<h3>Trabajamos con foco en 3 prioridades: equipos de alto desempeño, cultura de eficiencia y expansión de nuestros negocios.</h3>
+					<span><img class="logo-nyse" src="/assets/images/logos/logo NSE.png" alt=""></span>
 				</div>
 			</div>
 
@@ -137,27 +138,40 @@
 
 		<!-- QUEM SOMOS -->
 		<section id="c_quem_somos">
-
-				<div class="row">
-
-					<div class="col-md-7">
-						<div class="galery">
-							<img src="assets/images/home/galeria/galery.png" alt="">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-4 text-galery">
+							<div id="c_quem_somos_text">
+								<h2>Somos <img class="logo-text" src="assets/images/logos/logo-moove.png" alt=""></h2>
+							</div>
 						</div>
-					</div>
 
-					<div class="col-md-4 text-galery">
-						<div id="c_quem_somos_text">
-							<h2>Somos Moove</h2>
+						<div class="col-md-4">
 							<h3>
 								Producimos, vendemos y distribuimos lubricantes y grasas para los segmentos automotriz, agrícola, aéreo, naval e industrial asegurando productividad, eficiencia y desempeño.
-								<br><br>
-
+							</h3>
+						</div>
+						
+						<div class="col">
+							<h3>
 								Somos parte del Grupo Cosan. De origen brasileño y con operaciones internacionales, somos uno de los mayores productores y distribuidores de lubricantes y aceites básicos en Sudamérica, Europa y Estados Unidos.
 							</h3>
 						</div>
 					</div>
-
+				</div>
+				<div class="carrossel-galery">
+					<div calss="card-1"><img src="/assets/images/slide-itens/slide-item-01.png" alt=""></div>
+					<div class="card-2"> 
+						<div class="text-slide-item">
+							<h2>
+								Nuestros lubricantes están en todas partes.
+							</h2>
+						</div> 
+					</div>
+					<div class="card-3">
+						<img src="/assets/images/slide-itens/BrasilComS_00050.jpg" alt="">
+					</div>
+					<!-- <div class="card-4"></div> -->
 				</div>
 		</section>
 
@@ -233,10 +247,10 @@
 
 		<!-- MAPA (ENDEREÇOS) -->
 		<section id="c_mapa">
-			<div class="container">
+			<div class="container map-container">
+				<div id="mapplic"></div>
 				<h2>Dónde estamos</h2>
 			</div>
-			<div id="mapplic"></div>
 		</section>
 
 		<!-- O QUE TE MOOVE -->

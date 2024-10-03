@@ -19,7 +19,7 @@
 			iconfile: null,
 			height: 'auto',
 			csv: false,
-			landmark: false,
+			landmark: true,
 			portrait: 668,
 			minimap: false,
 			hidenofilter: false,
@@ -30,7 +30,7 @@
 			defaultstyle: null,
 			moretext: "Site",
 			action: 'default',
-			marker: './plugin/main/images/gota.png',
+			marker: '',
 			developer: false,
 			smartip: false,
 
@@ -1929,7 +1929,7 @@
 						e.preventDefault();
 						self.showLocation(location.id, 600);
 					});
-					if (location.label) $('<span><span>' + location.label + '</span></span>').appendTo(pin);
+					if (location.label) $('<span class="title">' + location.title + '</span>').appendTo(pin);
 					if (location.fill) pin.css({'background-color': location.fill, 'border-color': location.fill});
 					if (location.pin.indexOf('pin-image') > -1 || location.pin.indexOf('pin-icon') > -1) pin.css('background-image', 'url(' + location.label + ')');
 					if (location.reveal) pin.attr('data-reveal', location.reveal).css('visibility', 'hidden');

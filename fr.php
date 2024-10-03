@@ -127,6 +127,7 @@
 					<h2>Référence mondiale sur le marché des lubrifiants</h2>
 					<span><img class="img-icon-gota" src="/assets/images/icon/gota-icon-verde.png" alt=""></span>
 					<h3>Nous travaillons en nous focalisant sur 3 priorités : des équipes performantes, une culture de l'efficacité et l'expansion de l'entreprise.</h3>
+					<span><img class="logo-nyse" src="/assets/images/logos/logo NSE.png" alt=""></span>
 				</div>
 			</div>
 
@@ -134,27 +135,39 @@
 
 		<!-- QUEM SOMOS -->
 		<section id="c_quem_somos">
-
-			<div class="row">
-
-				<div class="col-md-7">
-					<div class="galery">
-				    <img src="assets/images/home/galeria/galery.png" alt="">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4 text-galery">
+						<div id="c_quem_somos_text">
+							<h2>Nous sommes <img class="logo-text" src="assets/images/logos/logo-moove.png" alt=""> </h2>
+						</div>
 					</div>
-				</div>
-
-				<div class="col-md-4 text-galery">
-					<div id="c_quem_somos_text">
-						<h2>Nous sommes Moove</h2>
+					<div class="col-md-4">
 						<h3>
-							Nous produisons, vendons et distribuons des lubrifiants et des graisses pour les secteurs Industriel, Automotive, Aviation et Marine, garantissant productivité, efficacité et performance.
-							<br><br>
-
+						Nous produisons, vendons et distribuons des lubrifiants et des graisses pour les secteurs Industriel, Automotive, Aviation et Marine, garantissant productivité, efficacité et performance.
+						</h3>
+					</div>
+					<div class="col">
+						<h3>
 							Nous faisons partie du groupe Cosan. Avec des origines brésiliennes et des opérations internationales, nous sommes l’un des plus grands producteurs et distributeurs de lubrifiants et d’huiles de base en Amérique du Sud, en Europe et aux États-Unis.
 						</h3>
 					</div>
+					</div>
 				</div>
-
+			</div>
+			<div class="carrossel-galery">
+				<div calss="card-1"><img src="/assets/images/slide-itens/slide-item-01.png" alt=""></div>
+				<div class="card-2"> 
+					<div class="text-slide-item">
+						<h2>
+							Nos lubrifiants sont partout.
+						</h2>
+					</div> 
+				</div>
+				<div class="card-3">
+					<img src="/assets/images/slide-itens/BrasilComS_00050.jpg" alt="">
+				</div>
+				<!-- <div class="card-4"></div> -->
 			</div>
 		</section>
 
@@ -232,10 +245,11 @@
 
 		<!-- MAPA (ENDEREÇOS) -->
 		<section id="c_mapa">
-			<div class="container">
+			<div class="container map-container">
+				<div id="mapplic"></div>
 				<h2>Où sommes-nous</h2>
 			</div>
-			<div id="mapplic"></div>
+			
 		</section>
 
 		<!-- O QUE TE MOOVE -->

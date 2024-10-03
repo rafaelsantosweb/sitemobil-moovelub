@@ -535,9 +535,10 @@ b, strong {
 	top: -37px;
 	z-index: 1;
 	padding-top: 38px !important;
+	padding-bottom: 5%;
 }
 #c_mapa .map-container {
-	margin-top: 10%;
+	margin-top: 5%;
 	background-color: #D5D7D1;
 	border-radius: 65px;
 	overflow: hidden;
@@ -562,9 +563,9 @@ b, strong {
 } */
 #c_mapa h2 {
 	color: #093D5E;
-	font-size: 4.5em;
-	font-weight: 200;
-	padding: 37px;
+	font-size: 4em;
+	font-weight: 300;
+	padding: 35px 48px;
 	margin: 0;
 	display: inline-block;
 	width: auto;
@@ -573,13 +574,12 @@ b, strong {
 	bottom: 0;
 	left: 0;
 	border-radius: 65px;
-	max-width: 357px;
+	max-width: 420px;
 	background-color: #F0F3EC;
 
 }
 #c_mapa {
 	margin: 0px;
-	padding: 0;
 }
 #c_mapa image:hover {
     cursor: pointer;
@@ -751,7 +751,7 @@ ul.ul-links li a:focus,
 }
 
 .social-media li img {
-	height: 2.6vw;
+	height: 1.8em;
   width: 100%;
 }
 
@@ -1261,7 +1261,7 @@ ul.ul-links li a:focus,
 
 @media (width >= 1920px) and (width < 2000px){
 	.container {
-		max-width: 1650px !important;
+		max-width: 1425px !important;
 	}
 }
 
