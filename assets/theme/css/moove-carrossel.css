@@ -21,3 +21,14 @@
   width: 397px;
   border-radius: 200px;
 }
+
+@media (max-width: 767px) {
+  #c_quem_somos .carrossel-galery .card-2 .text-slide-item{
+   max-width: 350px;
+   padding: 90px 40px; 
+  }
+
+  #c_quem_somos .carrossel-galery .card-2 .text-slide-item h2 {
+    font-size: 1.5em;
+  }
+}
