@@ -1099,9 +1099,12 @@ ul.ul-links li a:focus,
 		margin: 0;
 	}
 
+	#c_mapa{
+		padding-bottom: 20%;
+	}
+
 	#c_mapa h2 {
-		top: 50px;
-		font-size: 35px;
+		font-size: 25px;
 	}
 
 	#c_mapa h2:before {
