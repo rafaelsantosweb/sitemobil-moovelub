@@ -1,0 +1,23 @@
+#c_quem_somos .carrossel-galery {
+  padding-top: 5%;
+}
+
+#c_quem_somos .carrossel-galery .card-2 .text-slide-item {
+  background-color: #A8CC38;
+  padding: 90px 70px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 140px;
+  border-bottom-right-radius: 140px;
+  border-bottom-left-radius: 140px;
+}
+#c_quem_somos .carrossel-galery .card-2 .text-slide-item h2 {
+  font-size: 2.5em;
+  color: #073C5C;
+  font-weight: 300;
+}
+
+#c_quem_somos .carrossel-galery .card-3 img {
+  height: auto;
+  width: 397px;
+  border-radius: 200px;
+}

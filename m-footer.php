@@ -2,9 +2,11 @@
 
 <script type="text/javascript" src="./plugin/main/js/jquery.min.js"></script>
 <script type="text/javascript" src="./plugin/main/js/jquery.mousewheel.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" integrity="sha384-YGnnOBKslPJVs35GG0TtAZ4uO7BHpHlqJhs0XK3k6cuVb6EBtl+8xcvIIOKV5wB+" crossorigin="anonymous"></script>
 <script type="text/javascript" src="./plugin/main/js/script.js"></script>
 <script type="text/javascript" src="./plugin/main/mapplic/mapplic.js"></script>
 <script type="text/javascript" src="./assets/theme/js/owl.carousel.min.js"></script>
+<script type="text/javascript" src="/assets/theme/js/carrossel.js"></script>
 <script type="text/javascript">
 
 	var my_map = "";

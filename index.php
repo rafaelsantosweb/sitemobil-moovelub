@@ -129,6 +129,7 @@
 						<img class="img-icon-gota" src="/assets/images/icon/gota-icon-verde.png" alt="">
 					</span>
 					<h3>Trabalhamos com foco em 3 prioridades: times de alta performance, expansão dos negócios e cultura de eficiência.</h3>
+					<span><img class="logo-nyse" src="/assets/images/logos/logo NSE.png" alt=""></span>
 				</div>
 			</div>
 
@@ -136,27 +137,38 @@
 
 		<!-- QUEM SOMOS -->
 		<section id="c_quem_somos">
-
-			<div class="row">
-
-				<div class="col-md-7">
-					<div class="galery">
-				    <img src="assets/images/home/galeria/galery.png" alt="">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4 text-galery">
+						<div id="c_quem_somos_text">
+							<h2>Somos a <img class="logo-text" src="assets/images/logos/logo-moove.png" alt=""> </h2>
+						</div>
 					</div>
-				</div>
-
-				<div class="col-md-4 text-galery">
-					<div id="c_quem_somos_text">
-						<h2>Somos a moove</h2>
+					<div class="col-md-4">
 						<h3>
 							Produzimos, vendemos e distribuímos lubrificantes e graxas para os segmentos automotivo, agrícola, aéreo, naval e industrial, garantindo produtividade, eficiência e performance.
-							<br><br>
-
-							Somos parte do Grupo Cosan. Com origem brasileira e atuação internacional, somos uma das maiores produtoras e distribuidoras de lubrificantes e óleos básicos da América do Sul, também presente na Europa e Estados Unidos.
 						</h3>
 					</div>
+					<div class="col">
+						<h3>Somos parte do Grupo Cosan. Com origem brasileira e atuação internacional, somos uma das maiores produtoras e distribuidoras de lubrificantes e óleos básicos da América do Sul, também presente na Europa e Estados Unidos.</h3>
+					</div>
 				</div>
+			</div>
 
+
+			<div class="carrossel-galery">
+				<div calss="card-1"><img src="/assets/images/slide-itens/slide-item-01.png" alt=""></div>
+				<div class="card-2"> 
+					<div class="text-slide-item">
+						<h2>
+							Nossos lubrificantes estão por toda parte
+						</h2>
+					</div> 
+				</div>
+				<div class="card-3">
+					<img src="/assets/images/slide-itens/BrasilComS_00050.jpg" alt="">
+				</div>
+				<!-- <div class="card-4"></div> -->
 			</div>
 
 		</section>
@@ -234,10 +246,11 @@
 
 		<!-- MAPA (ENDEREÇOS) -->
 		<section id="c_mapa">
-			<div class="container">
+			<div class="container map-container">
+				<div id="mapplic"></div>
 				<h2>Onde estamos</h2>
 			</div>
-			<div id="mapplic"></div>
+			
 		</section>
 
 		<!-- O QUE TE MOOVE -->

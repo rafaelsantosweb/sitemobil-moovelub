@@ -264,14 +264,14 @@
 }
 
 .mapplic-pin.pin-image {
-	background-size: 24px;
+	background-size: 100%;
 	background-color: transparent !important;
 	/*border-radius: 50%;*/
 	border: none;	
 	box-sizing: border-box;
 	/*box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);*/
 	font-size: 0 !important;
-	width: 32px;
+	width: 140px;
 	height: 32px;
 	margin-top: -16px;
 	margin-left: -16px;

@@ -53,17 +53,17 @@
 					"x": "0.3005",
 					"y": "0.3744",
 					"pin" : "pin-image",
-					"label" : "./plugin/main/images/gota.png"
+					"label" : "./plugin/main/images/pin/united-states.png"
 				},
 				{
 					"id": "pt",
 					"title": "Portugal",
 					"description": "LEIRIA <br> Estrada Nacional 1 (IC2) <br> Barracão 2420-195 <br> +351 253 331 590 <br> <a href='mailto:geral@pt.moovelub.com'>geral@pt.moovelub.com</a>",
 					"link": "https://moovelub.pt/",
-					"x": "0.4770",
+					"x": "0.4270",
 					"y": "0.3786",
 					"pin" : "pin-image",
-					"label" : "./plugin/main/images/gota.png"
+					"label" : "./plugin/main/images/pin/portugal.png"
 				},
 				{
 					"id": "fr",
@@ -73,7 +73,7 @@
 					"x": "0.5018",
 					"y": "0.3200",
 					"pin" : "pin-image",
-					"label" : "./plugin/main/images/gota.png"
+					"label" : "./plugin/main/images/pin/france.png"
 				},
 				{
 					"id": "es",
@@ -83,27 +83,17 @@
 					"x": "0.4935",
 					"y": "0.3799",
 					"pin" : "pin-image",
-					"label" : "./plugin/main/images/gota.png"
+					"label" : "./plugin/main/images/pin/spain.png"
 				},
 				{
 					"id": "gb",
 					"title": "Reino Unido",
 					"description": "Dering Way <br> Gravesend <br> Kent <br> DA12 2QX <br>United Kingdom <br> <a href='mailto:enquiries@uk.moovelub.com'>enquiries@uk.moovelub.com</a> <br> Tel: +44 (0)1474 564311",
 					"link" : "https://www.moovelub.co.uk/",
-					"x": "0.5016",
+					"x": "0.4437",
 					"y": "0.2850",
 					"pin" : "pin-image",
-					"label" : "./plugin/main/images/gota.png"
-				},
-				{
-					"id": "br",
-					"title": "Brasil",
-					"description": "SÃO PAULO <br> Avenida Brigadeiro Faria Lima, 4100 <br> Itaim Bibi CEP 04538-132 <br>+55 11 4517-1700 <br> <a href='mailto:falecomamoove@moovelub.com'>falecomamoove@moovelub.com</a>",
-					"link": "http://moovelub.com/mobil",
-					"x": "0.3700",
-					"y": "0.7362",
-					"pin" : "pin-image",
-					"label" : "./plugin/main/images/gota.png"
+					"label" : "./plugin/main/images/pin/united-kingdown.png"
 				},
 				{					
 					"title": "Brasil",
@@ -112,7 +102,7 @@
 					"x": "0.3900",
 					"y": "0.7343",
 					"pin" : "pin-image",
-					"label" : "./plugin/main/images/gota.png"
+					"label" : "./plugin/main/images/pin/brasil-pin.png"
 				},
 				{
 					"id": "ar",
@@ -122,7 +112,7 @@
 					"y": "0.8116",
 					"link" : "https://moovelub.com.ar/",
 					"pin" : "pin-image",
-					"label" : "./plugin/main/images/gota.png"
+					"label" : "./plugin/main/images/pin/argentina.png"
 				}
 			]
 		}

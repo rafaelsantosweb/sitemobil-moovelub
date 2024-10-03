@@ -48,6 +48,7 @@ body {
 	font-family: 'Work Sans', sans-serif;
 	background-color: #F0F3EC;
 	overflow-x: hidden;
+	width: 100vw;
 }
 
 b, strong {
@@ -127,6 +128,12 @@ b, strong {
 	font-size: 24px;
 }
 
+.content-nav {
+	max-width: 80% !important; 
+	flex: 0 0 70% !important;
+}
+
+
 /*	====================
 	    MENU PRINCIPAL
 	==================== */
@@ -135,7 +142,8 @@ b, strong {
 
 #c_menu_banner_1 {
 	background-image: url('assets/images/home/background.png');
-	height: 380px;
+	height: auto !important;
+  padding-bottom: 50px;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -157,6 +165,7 @@ b, strong {
 	padding-right: 0;
 	font-weight: 400;
 }
+
 
 /* Language */
 
@@ -211,20 +220,24 @@ b, strong {
 
 
 /* Text */
+#c_menu_banner_1 span .logo-nyse{
+	height: auto;
+	width: 100px;
+}
 
 .c_container_text {
-	margin-top: 52px;
+	margin-top: 7%;
 }
 
 #c_menu_banner_1_text {
 	width: 100%;
-	max-width: 915px;	
+	max-width: 743px;	
 	margin-top: 0px;
 }
 
 #c_menu_banner_1_text h2 {
 	color: #fff;
-	font-size: 6rem;
+	font-size: 4.4em;
 	font-weight: 300;
 	padding-bottom: 2rem;
 }
@@ -251,6 +264,17 @@ b, strong {
 	background-repeat: no-repeat;
 	background-size: cover;
 	position: relative;
+}
+
+#c_quem_somos .logo-text {
+	height: auto;
+  width: 2.5em;
+}
+
+#c_quem_somos h3 {
+	margin-top: 20px;
+	font-size: 1em;
+	color: #073C5C;
 }
 
 /* Image */
@@ -478,12 +502,12 @@ b, strong {
 .c_diferencial_card_text h2 {
 	font-weight: 300;
 	margin-bottom: 12px;
-	font-size: 2vw;
+	font-size: 2em;
 }
 
 .c_diferencial_card_text h3 {
 	width: 228px;
-	font-size: .8vw;
+	font-size: .8em;
 	-webkit-hyphens: auto;
   -ms-hyphens: auto;
 	hyphens: auto;	
@@ -512,7 +536,19 @@ b, strong {
 	z-index: 1;
 	padding-top: 38px !important;
 }
-#c_mapa .container {
+#c_mapa .map-container {
+	margin-top: 10%;
+	background-color: #D5D7D1;
+	border-radius: 65px;
+	overflow: hidden;
+	position: relative;
+}
+/* #c_mapa .map-container .mapplic-element {
+	background-color: #D5D7D1;
+	border-radius: 65px;
+} */
+
+/* #c_mapa .container {
 	position: relative;	
 	position: absolute;
 	top: 100px;
@@ -523,17 +559,23 @@ b, strong {
 	-o-transform: translateX(-50%);
 	transform: translateX(-50%);
 	z-index: 3000;
-}
+} */
 #c_mapa h2 {
-	color: #fff;
-	font-size: 4.5vw;
+	color: #093D5E;
+	font-size: 4.5em;
 	font-weight: 200;
-	padding: 0;
+	padding: 37px;
 	margin: 0;
 	display: inline-block;
 	width: auto;
-	position: relative;
-	
+	position: absolute;
+	z-index: 10;
+	bottom: 0;
+	left: 0;
+	border-radius: 65px;
+	max-width: 357px;
+	background-color: #F0F3EC;
+
 }
 #c_mapa {
 	margin: 0px;
@@ -544,8 +586,18 @@ b, strong {
 }
 
 #landmarks-countries path, #other path{
-	fill: #11293A !important;
-	stroke: #093D5E !important;
+	fill: #F0F3EC !important; 
+	stroke: #D5D7D1 !important;
+}
+
+#landmarks-countries path#br,
+path#path4265,
+path#path4301,
+path#path3985,
+path#path3991,
+path#path4253,
+path#path3953  {
+	fill: #A8CC38 !important;
 }
 
 
@@ -964,9 +1016,6 @@ ul.ul-links li a:focus,
 
 	/* Quem Somos */
 
-	#c_quem_somos_text {
-		margin: 40px 15px 15px 15px;
-	}
 
 	#c_quem_somos_text h2 {
 		font-weight: 700;
@@ -1082,6 +1131,9 @@ ul.ul-links li a:focus,
 
 	.content-nav {
 		order: 2;
+		padding-left: 0;
+    padding-right: 0;
+		
 	}
 	/* .nav-link-logo {
 		display: none;
@@ -1179,9 +1231,9 @@ ul.ul-links li a:focus,
 		padding: 60px 0;
 	}
 
-    #c_menu_banner_1_text h2 {
-        font-size: 27px;
-    }
+	#c_menu_banner_1_text h2 {
+			font-size: 27px;
+	}
 
 	#c_menu_banner_1_text h2 {
 		color: #fff;
@@ -1197,7 +1249,7 @@ ul.ul-links li a:focus,
 		max-width: 420px;
 	}
 	.c_container_text {
-		margin-top: 13px;
+		margin-top: 60px;
 	}
 	#c_quem_somos_text h3 {
 		font-size: 18px;
@@ -1207,7 +1259,7 @@ ul.ul-links li a:focus,
 }
 
 
-@media (width >= 1920px){
+@media (width >= 1920px) and (width < 2000px){
 	.container {
 		max-width: 1650px !important;
 	}
@@ -1215,6 +1267,6 @@ ul.ul-links li a:focus,
 
 @media (min-width: 1200px) {
 	.container {
-		max-width: 1315px;
+		max-width: 1228px;
 	}
 }
