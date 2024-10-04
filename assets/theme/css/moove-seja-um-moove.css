@@ -12,7 +12,7 @@
 }
 
 #c_moove .box-content h2 {
-  font-size: 13em;
+  font-size: 12em;
   letter-spacing: -18px;
   font-weight: 300;
   line-height: .8;
@@ -32,7 +32,7 @@
   color: #F0F3EC;
   position: relative;
   border-radius: 30px;
-  font-size: .87vw;
+  font-size: .87em;
 }
 
 #c_moove .box-content .col-num-2 .button_vaga {
