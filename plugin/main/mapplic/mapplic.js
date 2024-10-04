@@ -1929,7 +1929,7 @@
 						e.preventDefault();
 						self.showLocation(location.id, 600);
 					});
-					if (location.label) $('<span class="title">' + location.title + '</span>').appendTo(pin);
+					if (location.label) $('<span class="content-pin-map position-absolute"><span class="title">' + location.title + '</span></span>').appendTo(pin);
 					if (location.fill) pin.css({'background-color': location.fill, 'border-color': location.fill});
 					if (location.pin.indexOf('pin-image') > -1 || location.pin.indexOf('pin-icon') > -1) pin.css('background-image', 'url(' + location.label + ')');
 					if (location.reveal) pin.attr('data-reveal', location.reveal).css('visibility', 'hidden');

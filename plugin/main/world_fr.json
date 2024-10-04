@@ -60,7 +60,7 @@
 					"title": "Portugal",
 					"description": "LEIRIA <br> Estrada Nacional 1 (IC2) <br> Barracão 2420-195 <br> +351 253 331 590 <br> <a href='mailto:geral@pt.moovelub.com'>geral@pt.moovelub.com</a>",
 					"link": "https://moovelub.pt/",
-					"x": "0.4270",
+					"x": "0.4770",
 					"y": "0.3786",
 					"pin" : "pin-image",
 					"label" : "./plugin/main/images/gota.png"
@@ -90,7 +90,7 @@
 					"title": "Royaume-Uni",
 					"description": "Dering Way <br> Gravesend <br> Kent <br> DA12 2QX <br>United Kingdom <br> <a href='mailto:enquiries@uk.moovelub.com'>enquiries@uk.moovelub.com</a> <br> Tel: +44 (0)1474 564311",
 					"link" : "https://www.moovelub.co.uk/",
-					"x": "0.4516",
+					"x": "0.5016",
 					"y": "0.2850",
 					"pin" : "pin-image",
 					"label" : "./plugin/main/images/gota.png"
