@@ -53,7 +53,7 @@
 					"x": "0.3005",
 					"y": "0.3744",
 					"pin" : "pin-image",
-					"label" : "./plugin/main/images/gota.png"
+					"label" : ""
 				},
 				{
 					"id": "pt",
@@ -63,7 +63,7 @@
 					"x": "0.4770",
 					"y": "0.3786",
 					"pin" : "pin-image",
-					"label" : "./plugin/main/images/gota.png"
+					"label" : ""
 				},
 				{
 					"id": "fr",
@@ -73,7 +73,7 @@
 					"x": "0.5018",
 					"y": "0.3200",
 					"pin" : "pin-image",
-					"label" : "./plugin/main/images/gota.png"
+					"label" : ""
 				},
 				{
 					"id": "es",
@@ -83,7 +83,7 @@
 					"x": "0.4935",
 					"y": "0.3799",
 					"pin" : "pin-image",
-					"label" : "./plugin/main/images/gota.png"
+					"label" : ""
 				},
 				{
 					"id": "gb",
@@ -93,7 +93,7 @@
 					"x": "0.5016",
 					"y": "0.2850",
 					"pin" : "pin-image",
-					"label" : "./plugin/main/images/gota.png"
+					"label" : ""
 				},
 				{
 					"id": "br",
@@ -103,7 +103,7 @@
 					"x": "0.3900",
 					"y": "0.7343",
 					"pin" : "pin-image",
-					"label" : "./plugin/main/images/gota.png"
+					"label" : ""
 				},
 				{
 					"id": "ar",
@@ -113,7 +113,7 @@
 					"y": "0.8116",
 					"link" : "https://moovelub.com.ar/",
 					"pin" : "pin-image",
-					"label" : "./plugin/main/images/gota.png"
+					"label" : ""
 				}
 			]
 		}
